@@ -13,5 +13,4 @@ def super_sum(A):
 		else:
 			total += (i * 2)
 
-	return total
-
+	return total``
