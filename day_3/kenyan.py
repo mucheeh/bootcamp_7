@@ -13,5 +13,3 @@ class Kenyan(Person):
 			return "Yes"
 		return "No" 
 
-
-# for now
