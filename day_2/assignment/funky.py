@@ -1,7 +1,5 @@
 def funky(a, b):
-	if type(a)== int and type (b)== int:
-		return (a + b)
-	elif type (a)== float or type (a) == int and type (b)== float or type (b)== int:
+	if type (a)== float or type (a) == int and type (b)== float or type (b)== int:
 		return (a + b)
 	elif type (a)== str and type (b)== str:
 		return (a + b)

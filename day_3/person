@@ -1,0 +1,18 @@
+# Create a class
+class Person:
+	# create a variable
+	people_count= 0
+
+	# initialising an object
+	def __init__(self, name, age):
+		self.name = name
+		self.age = age
+		Person.people_count += 1
+	
+	# initialise method represent(repr)
+	def __repr__(self):
+		return "<object: {},{}>".format(self.name, self.age)
+
+	# initialise method say_hello
+	def say_hello(self):
+		return "Hello, I'm {} and {} y/o".format(self.name, self.age)

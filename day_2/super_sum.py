@@ -11,6 +11,8 @@ def super_sum(A):
 		if i % 2 ==0:
 			total += (i / 2)
 		else:
-			total += (i * 2)
+			total += (i**2)
+	return total
 
-	return total``
+print super_sum(2)
+print super_sum(3)
