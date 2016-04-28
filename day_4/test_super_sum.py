@@ -5,6 +5,12 @@ from super_sum import super_sum
 class SuperSumTestCase(TestCase):
 	'''Test Case for super_sum.'''
 
+	def setUp(self):
+		pass
+
+	def tearDown(self):
+		pass
+
 	def test_empty_input(self):
 		'''Test empty input.'''
 		super_sum(super_sum(), 0)
