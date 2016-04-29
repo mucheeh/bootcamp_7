@@ -8,3 +8,38 @@ def string_length(something):
     return lengths
 
 print string_length("hellen")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

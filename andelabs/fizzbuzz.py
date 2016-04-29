@@ -8,8 +8,3 @@ def fizzbuzz_(x):
 	else:
 		return x
 
-
-print fizzbuzz_(3)
-print fizzbuzz_(5)
-print fizzbuzz_(15)
-print fizzbuzz_(1)
